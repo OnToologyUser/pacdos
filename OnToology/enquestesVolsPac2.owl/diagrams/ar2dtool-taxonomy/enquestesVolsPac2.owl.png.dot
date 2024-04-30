@@ -1,0 +1,40 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Rating" "base:FlightReview" "base:Trip_Verified" "base:First_Class" "base:RecommendedNA" "base:Date_Flown" "base:UnusualFlightReview" "base:Solo_Leisure" "base:Not_Verified" "base:Boeing" "base:Couple_Leisure" "base:NegativeReview" "base:ID" "base:Seat_Type" "base:Recommended" "base:Date_Published" "base:PositiveReview" "base:Economy_Class" "base:Airbus" "base:Title" "base:Result" "base:Another_Aircraft" "base:RecommendedNo" "base:Family_Leisure" "base:Verified" "base:Premium_Economy" "base:Aircraft" "base:Country" "base:Traveler_Type" "base:RecommendedYes" "base:Business_Class" "base:Origin" "base:Comment" "base:Destination" "base:Business" ; /*classes style*/
+	"base:Title" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Origin" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:RecommendedNA" -> "base:Recommended" [ label = "rdfs:subClassOf" ];
+	"base:Country" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Airbus" -> "base:Aircraft" [ label = "rdfs:subClassOf" ];
+	"base:Family_Leisure" -> "base:Traveler_Type" [ label = "rdfs:subClassOf" ];
+	"base:Not_Verified" -> "base:Verified" [ label = "rdfs:subClassOf" ];
+	"base:Business" -> "base:Traveler_Type" [ label = "rdfs:subClassOf" ];
+	"base:UnusualFlightReview" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Boeing" -> "base:Aircraft" [ label = "rdfs:subClassOf" ];
+	"base:Destination" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Verified" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Business_Class" -> "base:Seat_Type" [ label = "rdfs:subClassOf" ];
+	"base:Economy_Class" -> "base:Seat_Type" [ label = "rdfs:subClassOf" ];
+	"base:NegativeReview" -> "base:Result" [ label = "rdfs:subClassOf" ];
+	"base:Traveler_Type" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Seat_Type" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Couple_Leisure" -> "base:Traveler_Type" [ label = "rdfs:subClassOf" ];
+	"base:PositiveReview" -> "base:Result" [ label = "rdfs:subClassOf" ];
+	"base:RecommendedNo" -> "base:Recommended" [ label = "rdfs:subClassOf" ];
+	"base:RecommendedYes" -> "base:Recommended" [ label = "rdfs:subClassOf" ];
+	"base:Solo_Leisure" -> "base:Traveler_Type" [ label = "rdfs:subClassOf" ];
+	"base:Rating" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Date_Published" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:First_Class" -> "base:Seat_Type" [ label = "rdfs:subClassOf" ];
+	"base:Trip_Verified" -> "base:Verified" [ label = "rdfs:subClassOf" ];
+	"base:Aircraft" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Comment" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:ID" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Premium_Economy" -> "base:Seat_Type" [ label = "rdfs:subClassOf" ];
+	"base:Another_Aircraft" -> "base:Aircraft" [ label = "rdfs:subClassOf" ];
+	"base:Date_Flown" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Recommended" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+	"base:Result" -> "base:FlightReview" [ label = "rdfs:subClassOf" ];
+
+}

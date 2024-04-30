@@ -1,0 +1,155 @@
+{
+  "@context" : {
+    "Verified" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Verified"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating"
+    },
+    "First_Class" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#First_Class"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Country"
+    },
+    "UnusualFlightReview" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#UnusualFlightReview"
+    },
+    "Comment" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Comment"
+    },
+    "Couple_Leisure" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Couple_Leisure"
+    },
+    "Recommended" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Recommended"
+    },
+    "isRuleEnabled" : {
+      "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"
+    },
+    "Not_Verified" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Not_Verified"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName",
+      "@type" : "@id"
+    },
+    "Economy_Class" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Economy_Class"
+    },
+    "Title" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Title"
+    },
+    "hasDestination" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDestination",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Business_Class" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business_Class"
+    },
+    "Destination" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Destination"
+    },
+    "Solo_Leisure" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Solo_Leisure"
+    },
+    "Result" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Result"
+    },
+    "Trip_Verified" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Trip_Verified"
+    },
+    "Seat_Type" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type"
+    },
+    "Date_Flown" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Flown"
+    },
+    "Origin" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Origin"
+    },
+    "Business" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business"
+    },
+    "hasTravelerType" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasTravelerType",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "ID" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#ID"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Rating"
+    },
+    "RecommendedNo" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNo"
+    },
+    "FlightReview" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft"
+    },
+    "Airbus" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Airbus"
+    },
+    "Another_Aircraft" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Another_Aircraft"
+    },
+    "RecommendedYes" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedYes"
+    },
+    "hasSeatType" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasSeatType",
+      "@type" : "@id"
+    },
+    "Premium_Economy" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Premium_Economy"
+    },
+    "Boeing" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Boeing"
+    },
+    "date" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#date"
+    },
+    "Family_Leisure" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Family_Leisure"
+    },
+    "RecommendedNA" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNA"
+    },
+    "hasDateFlown" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDateFlown",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "NegativeReview" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#NegativeReview"
+    },
+    "hasOrigin" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasOrigin",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "PositiveReview" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#PositiveReview"
+    },
+    "Traveler_Type" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type"
+    },
+    "Date_Published" : {
+      "@id" : "http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Published"
+    }
+  }
+}

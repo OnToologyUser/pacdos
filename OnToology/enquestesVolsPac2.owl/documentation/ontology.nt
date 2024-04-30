@@ -1,0 +1,503 @@
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#date
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#date> <http://www.w3.org/2000/01/rdf-schema#label> "destination01" .
+# 
+# http://www.w3.org/2002/07/owl#sameAs
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDestination
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDestination> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDestination> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDestination> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Destination> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDestination> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a flight review to the destination" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDestination> <http://www.w3.org/2000/01/rdf-schema#label> "hasDestination" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "indicate if instance has a name" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName> <http://www.w3.org/2000/01/rdf-schema#label> "hasName" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasOrigin
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Origin> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a flight review to the origin" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "hasOrigin" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasSeatType
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasSeatType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a flight review to the type of seat used" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#label> "hasSeatType" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasTravelerType
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasTravelerType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasTravelerType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasTravelerType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasTravelerType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasTravelerType> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a flight review to the traveler's type" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasTravelerType> <http://www.w3.org/2000/01/rdf-schema#label> "hasTravelerType" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDateFlown
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDateFlown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDateFlown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Flown> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the date on which the flight took place for a given review." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#label> "hasDateFlown" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Rating> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2001/XMLSchema#maxInclusive> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid5 .
+_:genid5 <http://www.w3.org/2001/XMLSchema#minInclusive> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the numerical score or rating assigned to a flight review." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "hasRating" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Airbus
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Airbus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Airbus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Airbus> <http://www.w3.org/2000/01/rdf-schema#comment> "Aircraft used for the flight is an Airbus" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Airbus> <http://www.w3.org/2000/01/rdf-schema#label> "Airbus" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Airbus> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Airbus" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of aircraft used for the flight." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Aircraft" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Another_Aircraft
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Another_Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Another_Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Another_Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Aircraft used for the flight is neither an Airbus or a Boeing" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Another_Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Another_Aircraft" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Boeing
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Boeing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Boeing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Aircraft> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Boeing> <http://www.w3.org/2000/01/rdf-schema#comment> "Aircraft used for the flight is a Boeing" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Boeing> <http://www.w3.org/2000/01/rdf-schema#label> "Boeing" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Boeing> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Boeing" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents travelers who are flying for business purposes." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business> <http://www.w3.org/2000/01/rdf-schema#label> "Business" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business_Class
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business_Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business_Class> <http://www.w3.org/2000/01/rdf-schema#comment> " Represents seats in the business class" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Business_Class> <http://www.w3.org/2000/01/rdf-schema#label> "Business_Class" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Comment
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Comment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Comment> <http://www.w3.org/2000/01/rdf-schema#comment> "Text of the review" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Comment> <http://www.w3.org/2000/01/rdf-schema#label> "Comment" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Country
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the country of the passenger." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Couple_Leisure
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Couple_Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Couple_Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Couple_Leisure> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents travelers who are flying as a couple." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Couple_Leisure> <http://www.w3.org/2000/01/rdf-schema#label> "Couple_Leisure" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Flown
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Flown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Flown> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Flown> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when the flight took place" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Flown> <http://www.w3.org/2000/01/rdf-schema#label> "Date_Flown" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Published
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Published> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Published> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Published> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when the review was published." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Published> <http://www.w3.org/2000/01/rdf-schema#label> "Date_Published" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Destination
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Destination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Destination> <http://www.w3.org/2000/01/rdf-schema#comment> "Airport/City of destination for the flight." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Destination> <http://www.w3.org/2000/01/rdf-schema#label> "Destination" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Economy_Class
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Economy_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Economy_Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Economy_Class> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents seats in the economy class" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Economy_Class> <http://www.w3.org/2000/01/rdf-schema#label> "Economy_Class" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Family_Leisure
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Family_Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Family_Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Family_Leisure> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents travelers who are flying as part of a family group." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Family_Leisure> <http://www.w3.org/2000/01/rdf-schema#label> "Family_Leisure" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#First_Class
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#First_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#First_Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#First_Class> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents seats in the first-class section" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#First_Class> <http://www.w3.org/2000/01/rdf-schema#label> "First_Class" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains the passenger's review about the flight experience." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> <http://www.w3.org/2000/01/rdf-schema#label> "FlightReview" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#ID
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#ID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#ID> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique identifier for the review." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#ID> <http://www.w3.org/2000/01/rdf-schema#label> "Id" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#NegativeReview
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#NegativeReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#NegativeReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Result> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#NegativeReview> <http://www.w3.org/2000/01/rdf-schema#comment> "indicates if a review is negative" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#NegativeReview> <http://www.w3.org/2000/01/rdf-schema#label> "NegativeReview" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Not_Verified
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Not_Verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Not_Verified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Verified> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Not_Verified> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the review has not been verified." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Not_Verified> <http://www.w3.org/2000/01/rdf-schema#label> "Not_Verified" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Origin
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Origin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#PositiveReview
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#PositiveReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#PositiveReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Result> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#PositiveReview> <http://www.w3.org/2000/01/rdf-schema#comment> "indicates if a review is positive" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#PositiveReview> <http://www.w3.org/2000/01/rdf-schema#label> "PositiveReview" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Premium_Economy
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Premium_Economy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents seats in the premium economy class" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#label> "Premium_Economy" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Rating
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Numerical rating representing the flight experience." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Recommended
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Recommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Recommended> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Recommended> <http://www.w3.org/2000/01/rdf-schema#comment> "Flight is recommended by passenger" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Recommended> <http://www.w3.org/2000/01/rdf-schema#label> "Recommended" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNA
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Recommended> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNA> <http://www.w3.org/2000/01/rdf-schema#comment> "Passenger don't answer recommended question" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNA> <http://www.w3.org/2000/01/rdf-schema#label> "RecommendedNA" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNo
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Recommended> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNo> <http://www.w3.org/2000/01/rdf-schema#comment> "Passenger do not recommend the company flight" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedNo> <http://www.w3.org/2000/01/rdf-schema#label> "RecommendedNo" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedYes
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedYes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedYes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Recommended> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedYes> <http://www.w3.org/2000/01/rdf-schema#comment> "Passenger do not recommend the company flight" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#RecommendedYes> <http://www.w3.org/2000/01/rdf-schema#label> "RecommendedYes" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Result
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Result> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Result> <http://www.w3.org/2000/01/rdf-schema#comment> "Shows if the review is good or not" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Result> <http://www.w3.org/2000/01/rdf-schema#label> "Result" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of seat occupied during the flight." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Seat_Type" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Solo_Leisure
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Solo_Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Solo_Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Solo_Leisure> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents travelers who are flying for leisure on their own." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Solo_Leisure> <http://www.w3.org/2000/01/rdf-schema#label> "Solo_Leisure" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Title
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Title> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Title> <http://www.w3.org/2000/01/rdf-schema#comment> "Title of the review." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Title> <http://www.w3.org/2000/01/rdf-schema#label> "Title" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of traveler who took the flight " .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Traveler_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Traveler_Type" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Trip_Verified
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Trip_Verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Trip_Verified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Verified> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Trip_Verified> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the review has been verified." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Trip_Verified> <http://www.w3.org/2000/01/rdf-schema#label> "Trip_Verified" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#UnusualFlightReview
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#UnusualFlightReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#UnusualFlightReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#UnusualFlightReview> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines a flight with same origin and destination" .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#UnusualFlightReview> <http://www.w3.org/2000/01/rdf-schema#label> "UnusualFlightReview" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Verified
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Verified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Verified> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether the review has been verified." .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Verified> <http://www.w3.org/2000/01/rdf-schema#label> "Verified" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#A380
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#A380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#A380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Airbus> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#A380> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#A380> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#A380> <http://www.w3.org/2000/01/rdf-schema#label> "aircraft01" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Barcelona
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Barcelona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Barcelona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Destination> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Barcelona> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Barcelona> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Barcelona> <http://www.w3.org/2000/01/rdf-schema#label> "destination01" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#London
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#London> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#London> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Origin> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#London> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasName> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#London> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#London> <http://www.w3.org/2000/01/rdf-schema#label> "origin01" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating8
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Rating> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating8> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating8> <http://www.w3.org/2000/01/rdf-schema#label> "rating01" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#seat
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#seat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#seat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Seat_Type> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#seat> <http://www.w3.org/2000/01/rdf-schema#comment> "First_Class" .
+# 
+# http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#22-09-2020
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#22-09-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#22-09-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#Date_Flown> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#22-09-2020> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDateFlown> "2020-11-21T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#22-09-2020> <http://www.w3.org/2000/01/rdf-schema#label> "date01" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid19 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid19 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid19 <http://www.w3.org/2000/01/rdf-schema#label> "S1" .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid19 <http://www.w3.org/2003/11/swrl#body> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2003/11/swrl#arguments> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating> .
+_:genid25 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid25 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid27 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid19 <http://www.w3.org/2003/11/swrl#head> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid29 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#PositiveReview> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid30 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid30 <http://www.w3.org/2000/01/rdf-schema#label> "S2" .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid30 <http://www.w3.org/2003/11/swrl#body> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid32 .
+_:genid32 <http://www.w3.org/2003/11/swrl#arguments> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> .
+<http://www.w3.org/2003/11/swrlb#lessThanOrEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#rating> .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid36 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasRating> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid38 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/2003/11/swrl#head> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid40 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#NegativeReview> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid6 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid6 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid6 <http://www.w3.org/2000/01/rdf-schema#label> "S3" .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid6 <http://www.w3.org/2003/11/swrl#body> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid8 .
+_:genid8 <http://www.w3.org/2003/11/swrl#arguments> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#destination> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#origin> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> .
+<http://www.w3.org/2003/11/swrlb#equal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid12 .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#destination> .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid12 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasDestination> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid14 .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#origin> .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid14 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#hasOrigin> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid16 .
+_:genid16 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid16 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#FlightReview> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid6 <http://www.w3.org/2003/11/swrl#head> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid18 .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#review> .
+_:genid18 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/joant/ontologies/2024/3/enquestesVolsPac2#UnusualFlightReview> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
